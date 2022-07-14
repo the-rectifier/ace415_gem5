@@ -24,7 +24,7 @@ git clone https://gem5.googlesource.com/public/gem5
 
 Building and running is done using Docker. A simple Dockerfile is created containing all the dependencies for building / running (more [here](https://www.gem5.org/documentation/general_docs/building)). On top of the dependencies the Arm toolchain was installed to allow cross-compilation.
 
-To build and drop a shell inside the container run (make sure you have Docker installed)
+To build and drop a shell inside the container (make sure you have Docker installed):
 
 Clone this repo and place the `Dockerfile` and `run.sh` inside the Gem5 repo you cloned in the latter step
 
